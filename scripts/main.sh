@@ -62,4 +62,4 @@ cp ../ports/$CATEGORY/$NAME/Portfile $CATEGORY/$NAME/Portfile
 git add $CATEGORY/$NAME/Portfile
 git commit -m "$NAME: update to $TAG"
 # git push --set-upstream origin $NAME
-gh pr create --title "$NAME: update to $TAG" --body "Created with [`action-macports-bump`](https://github.com/harens/action-macports-bump)" --base=master --head=$NAME
+gh pr create
